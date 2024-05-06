@@ -1,0 +1,331 @@
+[gd_scene load_steps=53 format=3 uid="uid://dmxg6g2d04uib"]
+
+[ext_resource type="Script" path="res://Models/GymBlockModel.cs" id="1_5ccvn"]
+[ext_resource type="Texture2D" uid="uid://d27eglkjfud42" path="res://Textures/boxTex3GrBu.png" id="3_1wbfd"]
+[ext_resource type="Texture2D" uid="uid://daax0w2ap24gt" path="res://Textures/sphereCheckWG.png" id="4_md2tu"]
+[ext_resource type="Texture2D" uid="uid://c888w0samhxrh" path="res://Textures/sphereCheckWB.png" id="5_0cyms"]
+[ext_resource type="Texture2D" uid="uid://bbi4xb6phfinl" path="res://Textures/cylTex3bWG.png" id="6_0figt"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_101ep"]
+albedo_texture = ExtResource("3_1wbfd")
+
+[sub_resource type="BoxMesh" id="BoxMesh_3k8p3"]
+material = SubResource("StandardMaterial3D_101ep")
+size = Vector3(0.166, 0.202, 0.14)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ttkx7"]
+albedo_texture = ExtResource("3_1wbfd")
+
+[sub_resource type="BoxMesh" id="BoxMesh_3s13f"]
+material = SubResource("StandardMaterial3D_ttkx7")
+size = Vector3(0.2, 0.1, 0.17)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k5eo1"]
+albedo_texture = ExtResource("3_1wbfd")
+
+[sub_resource type="BoxMesh" id="BoxMesh_gsw38"]
+material = SubResource("StandardMaterial3D_k5eo1")
+size = Vector3(0.308, 0.204, 0.18)
+
+[sub_resource type="SphereMesh" id="SphereMesh_xxcl3"]
+radius = 0.08
+height = 0.2
+radial_segments = 32
+rings = 16
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vjwt3"]
+albedo_texture = ExtResource("4_md2tu")
+
+[sub_resource type="SphereMesh" id="SphereMesh_k0x00"]
+material = SubResource("StandardMaterial3D_vjwt3")
+radius = 0.05
+height = 0.1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_crqub"]
+albedo_texture = ExtResource("5_0cyms")
+
+[sub_resource type="SphereMesh" id="SphereMesh_vesnt"]
+material = SubResource("StandardMaterial3D_crqub")
+radius = 0.03
+height = 0.278
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ug0an"]
+albedo_texture = ExtResource("6_0figt")
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_tbu4l"]
+material = SubResource("StandardMaterial3D_ug0an")
+top_radius = 0.025
+bottom_radius = 0.025
+height = 0.04
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qdcwe"]
+albedo_texture = ExtResource("5_0cyms")
+
+[sub_resource type="SphereMesh" id="SphereMesh_xvmk6"]
+material = SubResource("StandardMaterial3D_qdcwe")
+radius = 0.025
+height = 0.28
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u7h0g"]
+albedo_texture = ExtResource("3_1wbfd")
+
+[sub_resource type="BoxMesh" id="BoxMesh_iabe4"]
+material = SubResource("StandardMaterial3D_u7h0g")
+size = Vector3(0.12, 0.005, 0.09)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cirh8"]
+albedo_texture = ExtResource("4_md2tu")
+
+[sub_resource type="SphereMesh" id="SphereMesh_wj4du"]
+material = SubResource("StandardMaterial3D_cirh8")
+radius = 0.05
+height = 0.1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yvmnm"]
+albedo_texture = ExtResource("5_0cyms")
+
+[sub_resource type="SphereMesh" id="SphereMesh_6wapa"]
+material = SubResource("StandardMaterial3D_yvmnm")
+radius = 0.03
+height = 0.278
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tkoqt"]
+albedo_texture = ExtResource("6_0figt")
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_u0jww"]
+material = SubResource("StandardMaterial3D_tkoqt")
+top_radius = 0.025
+bottom_radius = 0.025
+height = 0.04
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_klnyy"]
+albedo_texture = ExtResource("5_0cyms")
+
+[sub_resource type="SphereMesh" id="SphereMesh_ph7sf"]
+material = SubResource("StandardMaterial3D_klnyy")
+radius = 0.025
+height = 0.28
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nr7fc"]
+albedo_texture = ExtResource("3_1wbfd")
+
+[sub_resource type="BoxMesh" id="BoxMesh_by06r"]
+material = SubResource("StandardMaterial3D_nr7fc")
+size = Vector3(0.12, 0.005, 0.09)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p08i5"]
+albedo_texture = ExtResource("6_0figt")
+
+[sub_resource type="SphereMesh" id="SphereMesh_dlixv"]
+material = SubResource("StandardMaterial3D_p08i5")
+radius = 0.07
+height = 0.14
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qufj8"]
+albedo_texture = ExtResource("5_0cyms")
+
+[sub_resource type="SphereMesh" id="SphereMesh_cxv6a"]
+material = SubResource("StandardMaterial3D_qufj8")
+radius = 0.05
+height = 0.442
+radial_segments = 32
+rings = 16
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ptgpp"]
+albedo_texture = ExtResource("6_0figt")
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_gxovf"]
+material = SubResource("StandardMaterial3D_ptgpp")
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.08
+radial_segments = 32
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e5wbv"]
+albedo_texture = ExtResource("5_0cyms")
+
+[sub_resource type="SphereMesh" id="SphereMesh_gbfdl"]
+material = SubResource("StandardMaterial3D_e5wbv")
+radius = 0.045
+height = 0.446
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0e017"]
+albedo_texture = ExtResource("3_1wbfd")
+
+[sub_resource type="BoxMesh" id="BoxMesh_doft3"]
+material = SubResource("StandardMaterial3D_0e017")
+size = Vector3(0.09, 0.06, 0.26)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q7k16"]
+albedo_texture = ExtResource("6_0figt")
+
+[sub_resource type="SphereMesh" id="SphereMesh_uomvn"]
+material = SubResource("StandardMaterial3D_q7k16")
+radius = 0.07
+height = 0.14
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ll50g"]
+albedo_texture = ExtResource("5_0cyms")
+
+[sub_resource type="SphereMesh" id="SphereMesh_a4b2h"]
+material = SubResource("StandardMaterial3D_ll50g")
+radius = 0.05
+height = 0.442
+radial_segments = 32
+rings = 16
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rhrr6"]
+albedo_texture = ExtResource("6_0figt")
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rf2fm"]
+material = SubResource("StandardMaterial3D_rhrr6")
+top_radius = 0.04
+bottom_radius = 0.04
+height = 0.08
+radial_segments = 32
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jpear"]
+albedo_texture = ExtResource("5_0cyms")
+
+[sub_resource type="SphereMesh" id="SphereMesh_shdyr"]
+material = SubResource("StandardMaterial3D_jpear")
+radius = 0.045
+height = 0.446
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_edfae"]
+albedo_texture = ExtResource("3_1wbfd")
+
+[sub_resource type="BoxMesh" id="BoxMesh_vd0fe"]
+material = SubResource("StandardMaterial3D_edfae")
+size = Vector3(0.09, 0.06, 0.26)
+
+[node name="GymBlockModel" type="Node3D"]
+script = ExtResource("1_5ccvn")
+
+[node name="RootNode" type="Node3D" parent="."]
+
+[node name="PelvisNode" type="Node3D" parent="RootNode"]
+
+[node name="Pelvis" type="MeshInstance3D" parent="RootNode/PelvisNode"]
+mesh = SubResource("BoxMesh_3k8p3")
+skeleton = NodePath("../..")
+
+[node name="WaistJoint" type="Node3D" parent="RootNode/PelvisNode"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.101, 0)
+
+[node name="Abdomen" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+mesh = SubResource("BoxMesh_3s13f")
+
+[node name="MidTorsoJoint" type="Node3D" parent="RootNode/PelvisNode/WaistJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
+
+[node name="Chest" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.102, 0)
+mesh = SubResource("BoxMesh_gsw38")
+
+[node name="Head" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.320899, 0)
+mesh = SubResource("SphereMesh_xxcl3")
+
+[node name="ShoulderLJoint" type="Node3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.154, 0.204, 0)
+
+[node name="ShoulderL" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderLJoint"]
+mesh = SubResource("SphereMesh_k0x00")
+
+[node name="UpperArmL" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderLJoint"]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0.139, 0, 0)
+mesh = SubResource("SphereMesh_vesnt")
+
+[node name="ElbowLJoint" type="Node3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderLJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.278, 0, 0)
+
+[node name="ElbowL" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderLJoint/ElbowLJoint"]
+mesh = SubResource("CylinderMesh_tbu4l")
+
+[node name="LowerArmL" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderLJoint/ElbowLJoint"]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0.14, 0, 0)
+mesh = SubResource("SphereMesh_xvmk6")
+
+[node name="HandL" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderLJoint/ElbowLJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.29, 0, 0)
+mesh = SubResource("BoxMesh_iabe4")
+
+[node name="ShoulderRJoint" type="Node3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.154, 0.204, 0)
+
+[node name="ShoulderR" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderRJoint"]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("SphereMesh_wj4du")
+
+[node name="UpperArmR" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderRJoint"]
+transform = Transform3D(-4.37114e-08, -1, 0, -4.37114e-08, 1.91069e-15, -1, 1, -4.37114e-08, -4.37114e-08, -0.139, 0, 0)
+mesh = SubResource("SphereMesh_6wapa")
+
+[node name="ElbowRJoint" type="Node3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderRJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.278, 0, 0)
+
+[node name="ElbowR" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderRJoint/ElbowRJoint"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("CylinderMesh_u0jww")
+
+[node name="LowerArmR" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderRJoint/ElbowRJoint"]
+transform = Transform3D(-4.37114e-08, -1, 0, -4.37114e-08, 1.91069e-15, -1, 1, -4.37114e-08, -4.37114e-08, -0.14, 0, 0)
+mesh = SubResource("SphereMesh_ph7sf")
+
+[node name="HandR" type="MeshInstance3D" parent="RootNode/PelvisNode/WaistJoint/MidTorsoJoint/ShoulderRJoint/ElbowRJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.29, 0, 0)
+mesh = SubResource("BoxMesh_by06r")
+
+[node name="HipLJoint" type="Node3D" parent="RootNode/PelvisNode"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.083, -0.068, 0)
+
+[node name="HipL" type="MeshInstance3D" parent="RootNode/PelvisNode/HipLJoint"]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("SphereMesh_dlixv")
+
+[node name="UpperLegL" type="MeshInstance3D" parent="RootNode/PelvisNode/HipLJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.221, 0)
+mesh = SubResource("SphereMesh_cxv6a")
+
+[node name="KneeL" type="MeshInstance3D" parent="RootNode/PelvisNode/HipLJoint"]
+transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, -0.442, 0)
+mesh = SubResource("CylinderMesh_gxovf")
+
+[node name="KneeLJoint" type="Node3D" parent="RootNode/PelvisNode/HipLJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.442, 0)
+
+[node name="LowerLegL" type="MeshInstance3D" parent="RootNode/PelvisNode/HipLJoint/KneeLJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.223, 0)
+mesh = SubResource("SphereMesh_gbfdl")
+
+[node name="FootL" type="MeshInstance3D" parent="RootNode/PelvisNode/HipLJoint/KneeLJoint"]
+transform = Transform3D(1, 0, 0, 0, 0.788011, -0.615662, 0, 0.615662, 0.788011, 0, -0.46, 0.05)
+mesh = SubResource("BoxMesh_doft3")
+
+[node name="HipRJoint" type="Node3D" parent="RootNode/PelvisNode"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.083, -0.068, 0)
+
+[node name="HipR" type="MeshInstance3D" parent="RootNode/PelvisNode/HipRJoint"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, 0, 0, 0)
+mesh = SubResource("SphereMesh_uomvn")
+
+[node name="UpperLegR" type="MeshInstance3D" parent="RootNode/PelvisNode/HipRJoint"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, -0.221, 0)
+mesh = SubResource("SphereMesh_a4b2h")
+
+[node name="KneeR" type="MeshInstance3D" parent="RootNode/PelvisNode/HipRJoint"]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, 0, -0.442, 0)
+mesh = SubResource("CylinderMesh_rf2fm")
+
+[node name="KneeRJoint" type="Node3D" parent="RootNode/PelvisNode/HipRJoint"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.442, 0)
+
+[node name="LowerLegR" type="MeshInstance3D" parent="RootNode/PelvisNode/HipRJoint/KneeRJoint"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, -0.223, 0)
+mesh = SubResource("SphereMesh_shdyr")
+
+[node name="FootR" type="MeshInstance3D" parent="RootNode/PelvisNode/HipRJoint/KneeRJoint"]
+transform = Transform3D(1, 0, 0, 0, 0.788011, -0.615662, 0, 0.615662, 0.788011, 0, -0.46, 0.05)
+mesh = SubResource("BoxMesh_vd0fe")

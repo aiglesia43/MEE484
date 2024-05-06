@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvbamwhm3dc86"]
+
+[ext_resource type="Script" path="res://GUI/Menus.cs" id="1_1pmi3"]
+
+[node name="Menus" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_right = -661.0
+offset_bottom = -640.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1pmi3")
+
+[node name="ModelsOption" type="OptionButton" parent="."]
+layout_mode = 0
+offset_left = 232.0
+offset_top = 6.0
+offset_right = 394.0
+offset_bottom = 54.0
+
+[node name="PosesOption" type="OptionButton" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 6.0
+offset_right = 221.0
+offset_bottom = 52.0
+
+[node name="AngleOption" type="OptionButton" parent="."]
+layout_mode = 0
+offset_left = 404.0
+offset_top = 7.0
+offset_right = 600.0
+offset_bottom = 54.0
+
+[connection signal="item_selected" from="ModelsOption" to="." method="_on_models_option_item_selected"]
